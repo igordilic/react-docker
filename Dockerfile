@@ -6,6 +6,6 @@ MAINTAINER Igor Ilic
 RUN apk upgrade && \
     apk update && \
     apk add --no-cache \
-      nodejs
+      nodejs \
       yarn
 
